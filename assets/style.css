@@ -72,6 +72,10 @@ main {
 	padding: 24px;
 }
 
+.card__content > * {
+	animation: fadeIn 1s ease-in-out;
+}
+
 .card__tag {
 	font-size: 12px;
 	margin-bottom: 12px;
@@ -171,5 +175,17 @@ main {
 
 	.card__prices {
 		margin-bottom: 30px;
+	}
+}
+
+/* keyframe translateY opacity */
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+		transform: translateY(20px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0);
 	}
 }
