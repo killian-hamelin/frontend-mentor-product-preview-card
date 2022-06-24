@@ -1,5 +1,3 @@
-@import 'reset.css';
-
 :root {
 	--white: #FFFFFF;
 	--title-color: #1C232B;
@@ -138,5 +136,21 @@ main {
 	.card__image {
 		min-width: 300px;
 		max-height: 100%;
+	}
+
+	.card__tag {
+		padding-bottom: 20px;
+	}
+
+	.card__title {
+		padding-bottom: 24px;
+	}
+
+	.card__description {
+		padding-bottom: 29px;
+	}
+
+	.card__prices {
+		padding-bottom: 30px;
 	}
 }
