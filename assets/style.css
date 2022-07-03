@@ -189,3 +189,19 @@ main {
 		transform: translateY(0);
 	}
 }
+.attribution {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	font-size: 14px;
+	text-align: center;
+	color: var(--text-color);
+	padding-block: 8px;
+	display: flex;
+	place-content: center;
+	place-items: center;
+	gap: 8px;
+}
+.attribution a { color: var(--primary-color);transition: color .3s }
+.attribution a:hover { color: var(--darken-primary-color); }
